@@ -32,11 +32,11 @@ export default function Navbar() {
               </Link>
               <div className="absolute top-full left-0 mt-4 w-56 bg-brand-slate border border-white/5 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="py-2 flex flex-col">
-                  <Link to="/" className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Social Media Bootcamp</Link>
-                  <Link to="/" className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Content Creation</Link>
-                  <Link to="/" className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Multimedia</Link>
-                  <Link to="/" className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">SMM</Link>
-                  <Link to="/" className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Web/SEO</Link>
+                  <Link to="/services" state={{ scrollTo: 'bootcamp' }} className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Social Media Bootcamp</Link>
+                  <Link to="/services" state={{ scrollTo: 'content-strategy' }} className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Content Strategy</Link>
+                  <Link to="/services" state={{ scrollTo: 'multimedia' }} className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Multimedia</Link>
+                  <Link to="/services" state={{ scrollTo: 'social-media' }} className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">SMM</Link>
+                  <Link to="/services" state={{ scrollTo: 'website-seo' }} className="px-4 py-2 hover:bg-brand-blue/10 text-brand-light hover:text-brand-blue">Web/SEO</Link>
                 </div>
               </div>
             </div>
