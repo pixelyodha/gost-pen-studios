@@ -5,6 +5,7 @@ import SectionHeading from '../components/ui/SectionHeading';
 import StatBadge from '../components/ui/StatBadge';
 import Marquee from '../components/ui/Marquee';
 import ServiceCard from '../components/ui/ServiceCard';
+import PortfolioTeaser from '../components/ui/PortfolioTeaser';
 import TestimonialCard from '../components/ui/TestimonialCard';
 import BlogCard from '../components/ui/BlogCard';
 import FinalCTA from '../components/ui/FinalCTA';
@@ -205,6 +206,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 6.5. Portfolio Teaser (See Our Work) */}
+      <PortfolioTeaser />
 
       {/* 7. Testimonials */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
